@@ -24,9 +24,8 @@ public class Task3 {
         WebElement dest2 = driver.findElement(By.xpath("//ol[@id='amt7']//li[@class='placeholder']"));
 
         a.dragAndDrop(source1,dest1).perform();
-        Thread.sleep(3000);
 
-        a.dragAndDrop(source2,dest2).perform();
+        a.dragAndDrop(source2,dest2).build().perform();
         Thread.sleep(3000);
 
         driver.quit();
