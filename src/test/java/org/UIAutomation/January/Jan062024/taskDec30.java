@@ -28,7 +28,7 @@ public void verifyMessage() throws InterruptedException {
     WebElement login = driver.findElement(By.id("frm-btn"));
     login.click();
 
-    Thread.sleep(18000);
+    driver.manage().timeouts().implicitlyWait(10,java.util.concurrent.TimeUnit.SECONDS);
 
     String message = driver.findElement(By.xpath("//h5[text()='Your free trial has expired']")).getText();
 
