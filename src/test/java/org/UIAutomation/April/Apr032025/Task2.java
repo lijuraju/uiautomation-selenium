@@ -21,7 +21,7 @@ public class Task2 {
 
         a.moveToElement(sports).perform();
 
-        Thread.sleep(3000);
+        Thread.sleep(-3000);
 
         WebElement weightgainer = driver.findElement(By.xpath("//a[text()='Weight Gainers']"));
         weightgainer.click();
