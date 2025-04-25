@@ -4,7 +4,7 @@ public class PalindromeString {
 
     public static void main(String[] args) {
 
-        String str = "Malayalam";
+        String str = "Malayalam1";
         String str1 = str.toLowerCase();
 
         int left = 0;
