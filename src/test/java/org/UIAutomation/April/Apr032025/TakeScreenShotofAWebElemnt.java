@@ -31,6 +31,12 @@ public class TakeScreenShotofAWebElemnt {
 
        driver.quit();
 
+//       TakesScreenshot ts1 = (TakesScreenshot) driver;
+//
+//      File src1 =  ts1.getScreenshotAs(OutputType.FILE);
+//      File dest1 = new File("C:\\Personal\\uiautomation-selenium\\src\\screenshots\\"+generateFileDateStamp());
+//      FileHandler.copy(src1, dest1);
+
     }
 
     public static String generateFileDateStamp(){
