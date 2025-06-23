@@ -10,10 +10,10 @@ public class ArrayPractice1 {
         int smallest = a[0];
 
         for(int num : a){
-            if(num> a[0]){
+            if(num> largest){
                 largest=num;
             }
-            else if (num < a[0]){
+            else if (num < largest){
                 smallest = num;
             }
         }
