@@ -21,6 +21,8 @@ public class TakeScreenshot1 {
         driver.manage().window().maximize();
 
 
+
+
 //        TakesScreenshot ts = ((TakesScreenshot) driver);
         File src = ((FirefoxDriver) driver).getFullPageScreenshotAs(OutputType.FILE);
         File dest = new File("C:\\Personal\\uiautomation-selenium\\src\\screenshots\\"+generateFileDateStamp());
