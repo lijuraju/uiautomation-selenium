@@ -9,6 +9,7 @@ public class ArrayListToArray {
     public static void main(String[] args) {
 
         List<String> newObj = new ArrayList();
+
         newObj.add("Selenium");
         newObj.add("Selenium");//duplicates are allowed
         newObj.add("Playright");

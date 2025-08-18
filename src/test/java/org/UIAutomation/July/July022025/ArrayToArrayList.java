@@ -11,5 +11,13 @@ public class ArrayToArrayList {
         List newObj = new ArrayList(Arrays.asList(array));
 
         System.out.println(newObj);
+
+
+        Integer[] a = {1,2,3};
+
+        ArrayList<Integer> newObj1 = new ArrayList(Arrays.asList(a));
+        System.out.println(newObj1);
     }
+
+
 }
