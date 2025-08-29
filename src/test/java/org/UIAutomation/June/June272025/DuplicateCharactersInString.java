@@ -5,7 +5,7 @@ import java.util.HashSet;
 public class DuplicateCharactersInString {
     public static void main(String[] args) {
 
-        String s = "malayalam";
+        String s = "abca";
 
         HashSet obj = new HashSet();
         for(int i= 0; i<s.length();i++){

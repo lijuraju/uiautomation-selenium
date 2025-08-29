@@ -33,6 +33,7 @@ public class WindowHandles2 {
 
 
             driver.switchTo().window(listHandles.get(2));
+
             System.out.println("I am in Yahoo");
             System.out.println(driver.getTitle());
 
