@@ -16,7 +16,8 @@ public class CalculatePrice {
 
         driver.navigate().to("https://blinkit.com/");
 
-        List<WebElement> priceList = driver.findElements(By.xpath("//div[text()='Candies & Gums']/ancestor::div[@type='77']/descendant::div[@class='Product__UpdatedPriceAndAtcContainer-sc-11dk8zk-10 ljxcbQ']/div/child::div[1]"));
+        List<WebElement> priceList =
+                driver.findElements(By.xpath("//div[text()='Candies & Gums']/ancestor::div[@type='77']/descendant::div[@class='Product__UpdatedPriceAndAtcContainer-sc-11dk8zk-10 ljxcbQ']/div/child::div[1]"));
 
         int sum = 0;
         for(WebElement p1 : priceList)
