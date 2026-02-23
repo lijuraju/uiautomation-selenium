@@ -3,7 +3,7 @@ package org.UIAutomation.February.Feb122026;
 public class A4TwoPointerApproach {
     public static void main(String[] args) {
 
-        String input = "liju";
+        String input = "A man, a plan, a canal: Panama";
 
         System.out.println(isPalindrome(input));
 
