@@ -10,4 +10,8 @@ public class ArgumentPassing2 {
         System.out.println("Username:" + username);
         System.out.println("Password:" + password);
     }
+
+    // Second way is to pass it thru command line
+    // javac programName.java -> Compile the program
+    // java programName Liju Abram -> Run the program
 }
